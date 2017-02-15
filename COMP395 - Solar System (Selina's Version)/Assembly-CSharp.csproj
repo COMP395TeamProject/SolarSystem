@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\_scripts\HUDController.cs" />
      <Compile Include="Assets\_scripts\Rotate.cs" />
+     <Compile Include="Assets\_scripts\TimeScaleObjects.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

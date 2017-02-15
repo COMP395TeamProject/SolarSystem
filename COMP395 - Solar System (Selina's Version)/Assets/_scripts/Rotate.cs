@@ -14,6 +14,6 @@ public class Rotate : MonoBehaviour
         transform.Rotate(transform.up * PlanetRotateSpeed * Time.deltaTime);
 
         // planet to travel along a path that rotates around the sun
-        transform.RotateAround(Vector3.zero, Vector3.up, OrbitSpeed * Time.deltaTime);   
+        transform.RotateAround(Vector3.zero, Vector3.up, OrbitSpeed * Time.deltaTime);
     }
 }
