@@ -10,7 +10,8 @@ public class TimeScaleObjects : MonoBehaviour
 	public Text Username_field;
     public Text timeScaleText;
 
-	public void OnEdit(){
+	public void OnEdit()
+	{
 		//Gets value from txtTimeScale
 		inputTimeScale = Username_field.text.ToString();
 
@@ -32,4 +33,3 @@ public class TimeScaleObjects : MonoBehaviour
         timeScaleText.text = "TimeScale: " + value;
     }
 }
-
