@@ -5,7 +5,12 @@ public class Rotate : MonoBehaviour
 {
 	//Public Instances
     public float PlanetRotateSpeed = -25.0f;
-    public float OrbitSpeed = 20.0f;
+    public float OrbitSpeed;
+
+    void Start()
+    {
+        OrbitSpeed = 365 / OrbitSpeed;
+    }
 
     // Update is called once per frame
     void Update ()

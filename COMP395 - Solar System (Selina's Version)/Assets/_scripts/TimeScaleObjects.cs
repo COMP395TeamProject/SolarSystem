@@ -8,6 +8,7 @@ public class TimeScaleObjects : MonoBehaviour
 	public string inputTimeScale;
 	public float timeScaleFloat;
 	public Text Username_field;
+    public Text timeScaleText;
 
 	public void OnEdit(){
 		//Gets value from txtTimeScale
@@ -19,5 +20,16 @@ public class TimeScaleObjects : MonoBehaviour
 		//set timescale to user input
 		Time.timeScale = timeScaleFloat;
 	}
+
+    public void Start()
+    {
+        timeScaleText.text = "TimeScale: 1";
+    }
+
+    public void ChangeTimeScale(float value)
+    {
+        Time.timeScale = value;
+        timeScaleText.text = "TimeScale: " + value;
+    }
 }
 
