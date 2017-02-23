@@ -10,6 +10,7 @@ public class TimeScaleObjects : MonoBehaviour
 	public Text Username_field;
     public Text timeScaleText;
 
+	//
 	public void OnEdit()
 	{
 		//Gets value from txtTimeScale

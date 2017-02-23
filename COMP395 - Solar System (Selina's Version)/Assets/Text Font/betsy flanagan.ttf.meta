@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 867a1ff38919a9b4a88ca67599243780
+timeCreated: 1474568226
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Betsy Flanagan
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 10fa550be4d9fa340847009be86e8337, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
