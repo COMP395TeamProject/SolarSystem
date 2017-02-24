@@ -25,10 +25,10 @@ public class UIController : MonoBehaviour
 	}
 
 	//Public Methods
-	//begins simulation by changing to "SimulationScene"
+	//begins simulation by changing to "MainScene"
 	public void BeginSimulation()
 	{
-		SceneManager.LoadScene ("SimulationScene");
+		SceneManager.LoadScene ("MainScene");
 	}
 
 //	//Change scene to "OverviewScene"
@@ -46,7 +46,7 @@ public class UIController : MonoBehaviour
 	//Quites Game
 	public void Reset()
 	{
-		SceneManager.LoadScene ("SimulationScene");
+		SceneManager.LoadScene ("MainScene");
 	}
 
 	//Quites Game

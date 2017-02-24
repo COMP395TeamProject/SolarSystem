@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E2AFDAB9-87A7-77AC-D46A-7E86DAE811DD}</ProjectGuid>
+    <ProjectGuid>{57EBA1F3-9D2B-22AE-319B-EC228C4BB32D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,12 +47,9 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\_scripts\CameraControl.cs" />
-     <Compile Include="Assets\_scripts\CameraController.cs" />
-     <Compile Include="Assets\_scripts\CameraDrag.cs" />
      <Compile Include="Assets\_scripts\CreatAsteroid.cs" />
      <Compile Include="Assets\_scripts\DeleteOnHit.cs" />
      <Compile Include="Assets\_scripts\Gravity.cs" />
-     <Compile Include="Assets\_scripts\HUDController.cs" />
      <Compile Include="Assets\_scripts\Rotate.cs" />
      <Compile Include="Assets\_scripts\TimeScaleObjects.cs" />
      <Compile Include="Assets\_scripts\UIController.cs" />

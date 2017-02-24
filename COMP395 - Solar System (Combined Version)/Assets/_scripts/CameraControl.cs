@@ -14,7 +14,7 @@ public class CameraControl : MonoBehaviour
     public static CameraControl control;
     public bool planetSelected;
     public List<GameObject> planets;
-    public Camera camera;
+    //public Camera camera;
     public float speed;
     public float planetSpeedMultiplier = 1;
 
@@ -28,7 +28,7 @@ public class CameraControl : MonoBehaviour
     public int zoom = 20;
     public int normal = 60;
     public float smooth = 5f;
-    private bool isZoomed = false;
+    //private bool isZoomed = false;
 
     // Use this for initialization
     void Start()
